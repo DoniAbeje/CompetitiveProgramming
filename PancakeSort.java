@@ -4,7 +4,7 @@ import java.util.List;
 public class PancakeSort {
 
     public static void main(String[] args) {
-        for (int i : pancakeSort(new int[]{3,2,4,1})) {
+        for (int i : pancakeSort(new int[] { 3, 2, 4, 1 })) {
             System.out.print(i);
         }
     }
@@ -19,7 +19,7 @@ public class PancakeSort {
             } else if (A[0] == i) {
                 A = reverse(A, i - 1);
                 list.add(i);
-                
+
             } else {
                 for (int j = 0; j < A.length; j++) {
                     if (A[j] == i) {
@@ -27,12 +27,10 @@ public class PancakeSort {
                         list.add(j + 1);
                     }
                 }
-
                 A = reverse(A, i - 1);
                 list.add(i);
             }
         }
-
         return list;
     }
 
@@ -45,7 +43,6 @@ public class PancakeSort {
                 result[i] = A[i];
             }
         }
-
         return result;
     }
 }
