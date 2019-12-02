@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PancakeSort",
+            "request": "launch",
+            "mainClass": "PancakeSort",
+            "projectName": "Lab_99ec9a95"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseInteger",
+            "request": "launch",
+            "mainClass": "ReverseInteger",
+            "projectName": "Lab_99ec9a95"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ValidParenteses",
+            "request": "launch",
+            "mainClass": "ValidParenteses",
+            "projectName": "Lab_99ec9a95"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrefixCalculator",
+            "request": "launch",
+            "mainClass": "PrefixCalculator",
+            "projectName": "Lab_99ec9a95"
+        }
+    ]
+}
